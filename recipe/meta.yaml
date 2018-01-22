@@ -10,8 +10,8 @@ package:
 source:
   fn: tilegramsR_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/tilegramsR_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/tilegramsR/tilegramsR_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/tilegramsR_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/tilegramsR/tilegramsR_{{ version }}.tar.gz
   sha256: 22ee5ec89158e7ad366e9e357e8ec6dde22cfd95fa4395323d1f3df8e8f69685
 
 
